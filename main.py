@@ -45,7 +45,7 @@ def change(now, then):
 def okr(numObj, digits=0):
     return f"{numObj:.{digits}f}"
 
-users = [987278041, 1040792973]
+users = [SomeBBudyID, BreadID]
 
 
 @bot.message_handler(func=lambda message: message.chat.id not in users, commands=['sell', 'cancel_order', 'buy', 'modify_cancel', 'order_list', 'sell_ton', 'sell_eth', 'sell_btc', 'buy_ton', 'buy_btc', 'buy_eth'])
